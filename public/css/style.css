@@ -1,0 +1,94 @@
+:root{
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f3;
+    color: #434343;
+    overflow-x: hidden;
+    margin: 0;
+}
+.container{
+    max-width: 1640px;
+    margin: auto;
+    width: 95%;
+}
+.first-section{
+    padding-top: 100px;
+
+}
+#home-first-section{
+    background-image: url("../images/training bg.png");
+    background-position: center center;
+    background-size: cover;
+}
+#home-first-section>div{
+    display: flex;
+    justify-content: space-between;
+}
+.home-intro{
+    padding-top: 180px;
+    padding-bottom: 160px;
+}
+.home-slogan{
+    font-size: 3rem;
+}
+.home-desc{
+    max-width: 675px;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+#get-started{
+    color: #f3f3f3;
+    padding: 10px 30px;
+    background-color: #FF4200;
+    border: 2px solid #FF4200;
+    border-radius: 50px;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 300ms;
+}
+#get-started:hover{
+    color: #FF4200;
+    background-color: white;
+}
+/*.bg-design{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.grey-triangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-left: 40vw solid transparent;
+    border-right: 60vw solid #2d2d2d;
+    border-bottom: 0px solid transparent;
+    border-top: 100vh solid transparent;
+}
+.orange-triangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-left: 0vw solid transparent;
+    border-right: 35vw solid #FF4200;
+    border-bottom: 0px solid transparent;
+    border-top: 60vh solid transparent;
+}*/
+#learn-bulb{
+    max-height: 650px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    /*display: none;*/
+}
+#slogan1, #slogan2, #slogan3{
+    opacity: 0;
+    transition: 500ms;
+}

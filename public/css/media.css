@@ -1,0 +1,142 @@
+@media(max-width: 1330px){
+    #course-select-container{
+        grid-template-columns: 1fr;
+    }
+    #course-select-container h1{
+        grid-row: 2/3;
+        margin: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    #course-select-container img{
+        grid-row: 1/2;
+    }
+    #course-description{
+        margin: auto;
+        text-align: center;
+    }
+    #course-select-container form{
+        width: 100%;
+        max-width: 700px;
+    }
+}
+@media (min-width: 1000px){
+    #learning h1, #courses h1{
+        margin: 2em 0 1em 0;
+    }
+}
+@media (max-width: 1000px){
+    #course-list{
+        grid-template-columns: repeat(2, auto);
+    }
+    #contact-form{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 769px) {
+    header{
+        display: grid;
+    }
+    #mobile-navbar{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    #picture-text{
+        grid-template-columns: repeat(1, auto);
+    }
+    header{
+        display: none;
+    }
+    #mobile-navbar{
+        display: block;
+    }
+    #slider{
+        margin-top: 70px;
+        padding: 80px 0 60px;
+    }
+    #contact-container{
+        width: 100%;
+    }
+    #main-contact{
+        padding-bottom: 20px;
+    }
+    #main-contact form{
+        display: flex;
+        flex-direction: column;
+    }
+    #contact-info{
+        margin: 50px;
+    }
+    #course-select-container h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 600px){
+    #course-view{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #course-view ul{
+        grid-template-columns: repeat(1, auto);
+        grid-row-gap: 1em;
+        place-content: unset;
+    }
+    #parent{
+        display: grid;
+        grid-template-columns: unset;
+        grid-template-rows: repeat(2, auto);
+        padding: 0 2em;
+    }
+    #course-list{
+        grid-template-columns: repeat(1, auto);
+    }
+    #para{
+        width: 95%;
+    }
+    #para p{
+        box-shadow: none;
+    }
+    #footer-logo{
+        display: block;
+        justify-content: left;
+        align-items: center;
+    }
+    #footer-logo img{
+        margin: 1em 0;
+    }
+    #footer-content{
+        padding: 1em 0;
+    }
+    #footer-content p{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+@media (max-device-width: 500px){
+    #get-started, #see-more{
+        width: 100vw;
+        height: 80px;
+        font-size: 2em;
+        border-radius: unset;
+        padding: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #learning, #courses{
+        margin-bottom: 0;
+    }
+    /*for contact page*/
+    .full, form p{
+        margin: 10px;
+    }
+    #contact-info{
+        margin: 10px;
+    }
+    #course-select-container h1{
+        font-size: xx-large;
+    }
+}

@@ -1,0 +1,35 @@
+<div id="course-select">
+    <div id="course-select-container">
+        <h1>Graphic Designing</h1>
+        <img src="/images/icons courses/graphic designing.png" alt="Graphic Designing">
+        <p id="course-description">Graphic design is the craft of creating visual content to communicate messages.
+            Applying visual hierarchy and page layout techniques, graphic designers use typography and pictures to meet
+            users’ specific needs and focus on the logic of displaying elements in interactive designs to optimize the
+            user experience.</p>
+        <form action="downloadCourse" method="POST">
+            <p>
+                <label>First Name</label>
+                <input type="text" name="firstName" required>
+            </p>
+            <p>
+                <label>Last Name</label>
+                <input type="text" name="lastName" required>
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="email" required>
+            </p>
+            <p>
+                <label>Phone</label>
+                <input type="text" name="number">
+            </p>
+            <p>
+                <label>Course</label>
+                <input type="text" name="course" value="Graphic Designing" readonly><br>
+            </p>
+            <p>
+                <button type="submit">Download Course Outline</button>
+            </p>
+        </form>
+    </div>
+</div>

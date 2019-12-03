@@ -1,0 +1,31 @@
+#upper-footer{
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px 0 10px;
+}
+#upper-footer img{
+    max-height: 100px;
+}
+#upper-footer>div>div{
+    display: flex;
+    justify-content: space-between;
+}
+#upper-footer a{
+    color: white;
+    text-decoration: none;
+}
+.home-social-links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+}
+#lower-footer{
+    background-color: #434343;
+    color: white;
+    text-align: center;
+}
+#lower-footer p{
+    margin: 0;
+    padding: 1rem 0;
+}
