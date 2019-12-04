@@ -16,7 +16,7 @@
     width: max-content;
     margin: 1em auto 2em auto;
     padding-bottom: 25px;
-    font-family: gotham-medium;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     border-bottom: 5px solid #dd7713;
 }
@@ -56,7 +56,7 @@
     color: #f3f3f3;
     background-color: #3a3a3a;
     padding: 1em;
-    font-family: gotham-medium;
+    font-family: 'Montserrat', sans-serif;
 }
 .full button:hover{
     background-color: #dd7713;
@@ -85,5 +85,5 @@
     text-align: left;
 }
 #bold-it{
-    font-family: gotham-medium;
+    font-family: 'Montserrat', sans-serif;
 }

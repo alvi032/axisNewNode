@@ -1,6 +1,6 @@
 #course-select{
     width: 100%;
-    padding-top: 80px;
+    padding-top: 120px;
     padding-bottom: 70px;
     box-sizing: border-box;
 }
@@ -15,7 +15,7 @@
 }
 #course-select-container h1{
     font-size: 60px;
-    font-family: gotham-medium;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     border-bottom: 10px solid #F3931F;
     width: max-content;
@@ -27,6 +27,7 @@
 #course-description{
     max-width: 700px;
     font-size: larger;
+    font-family: 'Muli', sans-serif;
 }
 #course-select-container form{
     place-self: center;
@@ -50,7 +51,7 @@
     color: #f3f3f3;
     background-color: #3a3a3a;
     padding: 1em;
-    font-family: gotham-medium;
+    font-family: 'Montserrat', sans-serif;
     transition: 0.25s;
 }
 #course-select-container form button:hover{
