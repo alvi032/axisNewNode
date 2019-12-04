@@ -18,7 +18,7 @@
     /*font-family: gotham-medium;*/
     font-family: Montserrat, sans-serif;
     font-size: 3rem;
-    border-bottom: 5px solid #dd7713;
+    border-bottom: 5px solid #FF4200;
 }
 #para{
     background-image: url("../images/Axis-full-hq.png");
@@ -36,7 +36,7 @@
                 0px -20px 0px -10px #f3f3f3,
                 20px 0px 0px -10px #f3f3f3,
                 -20px 0px 0px -10px #f3f3f3,
-                0px 0px 0px 10px #dd7713,
+                0px 0px 0px 10px #FF4200,
                 5px 5px 15px 5px rgba(0, 0, 0, 0);
     width: 100% !important;
 }

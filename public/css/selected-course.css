@@ -17,7 +17,7 @@
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
     color: black;
-    border-bottom: 10px solid #F3931F;
+    border-bottom: 10px solid #FF4200;
     width: max-content;
 }
 #course-select-container img{
@@ -55,7 +55,7 @@
     transition: 0.25s;
 }
 #course-select-container form button:hover{
-    background-color: #dd7713;
+    background-color: #FF4200;
     color: #f3f3f3;
 }
 #course-select-container form input{

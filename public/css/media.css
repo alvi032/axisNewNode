@@ -37,22 +37,13 @@
     header{
         display: grid;
     }
-    #mobile-navbar{
-        display: none;
-    }
 }
 @media (max-width: 768px){
     #picture-text{
         grid-template-columns: repeat(1, auto);
     }
-    header{
-        display: none;
-    }
-    #mobile-navbar{
-        display: block;
-    }
     #slider{
-        margin-top: 70px;
+        margin-top: 110px;
         padding: 80px 0 60px;
     }
     #contact-container{
