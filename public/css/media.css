@@ -1,25 +1,3 @@
-@media(max-width: 1330px){
-    #course-select-container{
-        grid-template-columns: 1fr;
-    }
-    #course-select-container h1{
-        grid-row: 2/3;
-        margin: auto;
-        max-width: 100%;
-        text-align: center;
-    }
-    #course-select-container img{
-        grid-row: 1/2;
-    }
-    #course-description{
-        margin: auto;
-        text-align: center;
-    }
-    #course-select-container form{
-        width: 100%;
-        max-width: 700px;
-    }
-}
 @media (min-width: 1000px){
     #learning h1, #courses h1{
         margin: 2em 0 1em 0;
@@ -59,9 +37,6 @@
     #contact-info{
         margin: 50px;
     }
-    #course-select-container h1 {
-        font-size: 50px;
-    }
 }
 @media (max-width: 600px){
     #course-view{
@@ -90,33 +65,9 @@
     #para p{
         box-shadow: none;
     }
-    #footer-logo{
-        display: block;
-        justify-content: left;
-        align-items: center;
-    }
-    #footer-logo img{
-        margin: 1em 0;
-    }
-    #footer-content{
-        padding: 1em 0;
-    }
-    #footer-content p{
-        text-align: center;
-        font-size: 14px;
-    }
+
 }
 @media (max-device-width: 500px){
-    #get-started, #see-more{
-        width: 100vw;
-        height: 80px;
-        font-size: 2em;
-        border-radius: unset;
-        padding: unset;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     #learning, #courses{
         margin-bottom: 0;
     }
@@ -126,8 +77,5 @@
     }
     #contact-info{
         margin: 10px;
-    }
-    #course-select-container h1{
-        font-size: xx-large;
     }
 }

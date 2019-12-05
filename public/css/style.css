@@ -92,3 +92,11 @@ body{
     opacity: 0;
     transition: 500ms;
 }
+@media (max-width: 767px){
+    .home-intro{
+        padding-top: 80px;
+    }
+    #learn-bulb{
+        display: none;
+    }
+}

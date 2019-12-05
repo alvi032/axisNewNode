@@ -84,6 +84,7 @@
 #contact-info p{
     text-align: left;
 }
-#bold-it{
+.bold-it{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }

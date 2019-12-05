@@ -17,7 +17,7 @@
 .home-social-links{
     display: flex;
     justify-content: space-between;
-    max-width: 300px;
+    max-width: 200px;
     width: 100%;
 }
 #lower-footer{
@@ -28,4 +28,18 @@
 #lower-footer p{
     margin: 0;
     padding: 1rem 0;
+}
+@media (max-width: 767px) {
+    #upper-footer>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    #upper-footer>div>div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

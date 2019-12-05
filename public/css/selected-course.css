@@ -18,7 +18,7 @@
     font-family: 'Montserrat', sans-serif;
     color: black;
     border-bottom: 10px solid #FF4200;
-    width: max-content;
+    /*width: max-content;*/
 }
 #course-select-container img{
     max-width: 150px;
@@ -66,4 +66,23 @@
 }
 #course-select-container form input:focus{
     outline: none;
+}
+@media (max-width: 1330px){
+    #course-select-container h1{
+        max-width: 500px;
+    }
+}
+@media (max-width: 920px) {
+    #course-select-container{
+        grid-template-columns: repeat(1, auto);
+    }
+    #course-select-container img{
+        grid-row: 1/2;
+    }
+    #course-select-container h1{
+        grid-row: 2/3;
+        text-align: center;
+        margin: auto;
+        font-size: 2rem;
+    }
 }
